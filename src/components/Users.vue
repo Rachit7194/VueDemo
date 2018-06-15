@@ -68,8 +68,8 @@ export default{
 
       e.preventDefault();
     },
-    deleteUser: function(){
-      this.users.splice(this.users.indexOf(user,1));
+    deleteUser: function(user){
+      this.users.splice(this.users.indexOf(user), 1);
     }
   }
   }
